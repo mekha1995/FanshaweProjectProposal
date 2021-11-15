@@ -1,0 +1,980 @@
+Internal Server Error: /Insertproposal
+Traceback (most recent call last):
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/fanshaw1/FPPMS/FPPMS/views.py", line 19, in saveproposal
+    saveserialize.save(commit=False)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/serializers.py", line 182, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+Internal Server Error: /Insertproposal
+Traceback (most recent call last):
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/fanshaw1/FPPMS/FPPMS/views.py", line 19, in saveproposal
+    saveserialize.save(commit=False)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/serializers.py", line 182, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+Internal Server Error: /Insertproposal
+Traceback (most recent call last):
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/fanshaw1/FPPMS/FPPMS/views.py", line 19, in saveproposal
+    saveserialize.save(commit=False)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/serializers.py", line 182, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+Internal Server Error: /Insertproposal
+Traceback (most recent call last):
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/fanshaw1/FPPMS/FPPMS/views.py", line 19, in saveproposal
+    saveserialize.save(commit=False)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/serializers.py", line 182, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+Internal Server Error: /Insertproposal
+Traceback (most recent call last):
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/fanshaw1/FPPMS/FPPMS/views.py", line 19, in saveproposal
+    saveserialize.save(commit=False)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/serializers.py", line 182, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+Internal Server Error: /Insertproposal
+Traceback (most recent call last):
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/fanshaw1/FPPMS/FPPMS/views.py", line 19, in saveproposal
+    saveserialize.save(commit=False)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/serializers.py", line 182, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+Internal Server Error: /Insertproposal
+Traceback (most recent call last):
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/fanshaw1/FPPMS/FPPMS/views.py", line 19, in saveproposal
+    saveserialize.save(commit=False)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/serializers.py", line 182, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Internal Server Error: /Insertproposal
+Traceback (most recent call last):
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/fanshaw1/FPPMS/FPPMS/views.py", line 19, in saveproposal
+    saveserialize.save(commit=False)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/serializers.py", line 182, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+Internal Server Error: /Insertproposal
+Traceback (most recent call last):
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/fanshaw1/FPPMS/FPPMS/views.py", line 19, in saveproposal
+    saveserialize.save(commit=False)
+  File "/home/fanshaw1/virtualenv/FPPMS/3.8/lib/python3.8/site-packages/rest_framework/serializers.py", line 182, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.png
+Not Found: /favicon.png
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /.well-known/security.txt
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.png
+Not Found: /favicon.png
+Not Found: /aaa9
+Not Found: /aad7
+Not Found: /aaa9
+Not Found: /aad7
+Not Found: /aaa9
+Not Found: /aad7
+Not Found: /ads.txt
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.png
+Not Found: /favicon.png
+OSError: LSAPI: Socket read/write error
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.png
+Not Found: /favicon.png
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /favicon.ico
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.png
+Not Found: /favicon.png
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /wp-login.php
+Bad Request: /wp-login.php
+Bad Request: /wp-login.php
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /apple-touch-icon-120x120-precomposed.png
+Not Found: /apple-touch-icon-120x120.png
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /apple-touch-icon.png
+Not Found: /favicon.ico
+Not Found: /apple-touch-icon-120x120-precomposed.png
+Not Found: /apple-touch-icon-120x120.png
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /apple-touch-icon.png
+Not Found: /favicon.ico
+Not Found: /*
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+[UID:2538][27865] Child process with pid: 39879 was killed by signal: 15, core dump: 0
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+[UID:2538][38645] Child process with pid: 40418 was killed by signal: 15, core dump: 0
+[UID:2538][38645] Child process with pid: 833 was killed by signal: 15, core dump: 0
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /.well-known/assetlinks.json
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /.well-known/assetlinks.json
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /ads.txt
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /.well-known/assetlinks.json
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+OSError: LSAPI: Socket read/write error
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /wp-login.php
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /aboutus/
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+Not Found: /aboutus/
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /xmlrpc.php
+Not Found: /blog/robots.txt
+Not Found: /blog/
+Not Found: /wordpress/
+Not Found: /wp/
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /index.php/admin/
+Not Found: /dev/index.php/admin/
+Not Found: /old/index.php/admin/
+Not Found: /test/index.php/admin/
+Not Found: /demo/index.php/admin/
+Not Found: /shop/index.php/admin/
+Not Found: /store/index.php/admin/
+Not Found: /magento/index.php/admin/
+Not Found: /staging/index.php/admin/
+Not Found: /rss/order/new
+Not Found: /rss/catalog/notifystock
+Not Found: /rss/catalog/review
+Not Found: /dev/rss/order/new
+Not Found: /dev/rss/catalog/notifystock
+Not Found: /dev/rss/catalog/review
+Not Found: /old/rss/order/new
+Not Found: /old/rss/catalog/notifystock
+Not Found: /old/rss/catalog/review
+Not Found: /test/rss/order/new
+Not Found: /test/rss/catalog/notifystock
+Not Found: /test/rss/catalog/review
+Not Found: /demo/rss/order/new
+Not Found: /demo/rss/catalog/notifystock
+Not Found: /demo/rss/catalog/review
+Not Found: /shop/rss/order/new
+Not Found: /shop/rss/catalog/notifystock
+Not Found: /shop/rss/catalog/review
+Not Found: /store/rss/order/new
+Not Found: /store/rss/catalog/notifystock
+Not Found: /store/rss/catalog/review
+Not Found: /magento/rss/order/new
+Not Found: /magento/rss/catalog/notifystock
+Not Found: /magento/rss/catalog/review
+Not Found: /staging/rss/order/new
+Not Found: /staging/rss/catalog/notifystock
+Not Found: /staging/rss/catalog/review
+Not Found: /downloader/index.php
+Not Found: /dev/downloader/index.php
+Not Found: /old/downloader/index.php
+Not Found: /test/downloader/index.php
+Not Found: /demo/downloader/index.php
+Not Found: /shop/downloader/index.php
+Not Found: /store/downloader/index.php
+Not Found: /magento/downloader/index.php
+Not Found: /staging/downloader/index.php
+Not Found: /errors/503.php
+Not Found: /dev/errors/503.php
+Not Found: /old/errors/503.php
+Not Found: /test/errors/503.php
+Not Found: /demo/errors/503.php
+Not Found: /shop/errors/503.php
+Not Found: /store/errors/503.php
+Not Found: /magento/errors/503.php
+Not Found: /staging/errors/503.php
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /robots.txt
+Not Found: /robots.txt
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /a9bc224bd710f56d27affffddc764239b58c3faa0/shield.png
+Not Found: /.env
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /wp-login.php
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /js/ckfinder/core/connector/php/connector.php
+Not Found: /ckeditor/ckfinder/core/connector/php/connector.php
+Not Found: /ckfinder/core/connector/php/connector.php
+Not Found: /.env
+Not Found: /wp-content/
+Not Found: /.env
+Not Found: /wp-content/
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /robots.txt
+Not Found: /robots.txt
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /wp-login.php
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /.env
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /https://fanshaweprojectproposals.ca/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /te3/signup.php
+Not Found: /.env
+Not Found: /wp-content/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-admin/css/
+Not Found: /.well-known/
+Not Found: /sites/default/files/
+Not Found: /uploads/
+Not Found: /images/
+Not Found: /files/
+Not Found: /robots.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /.env
+Not Found: /wp-content/
+Not Found: /wp-admin/css/
+Not Found: /.well-known/
+Not Found: /sites/default/files/
+Not Found: /uploads/
+Not Found: /images/
+Not Found: /files/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /atom.xml
+Not Found: /sitemaps.xml
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml
+Not Found: /sitemap_index.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /atom.xml
+Not Found: /sitemaps.xml
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml
+Not Found: /sitemap_index.xml
+Not Found: /sitemaps.xml
+Not Found: /atom.xml
+Not Found: /atom.xml
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /sitemap_index.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /adminer.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /.env
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /.env
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /xmlrpc.php
+Not Found: /blog/robots.txt
+Not Found: /blog/
+Not Found: /wordpress/
+Not Found: /wp/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /blog/
+Not Found: /wp/
+Not Found: /wordpress/
+Not Found: /new/
+Not Found: /old/
+Not Found: /test/
+Not Found: /main/
+Not Found: /site/
+Not Found: /backup/
+Not Found: /demo/
+Not Found: /home/
+Not Found: /tmp/
+Not Found: /cms/
+Not Found: /dev/
+Not Found: /old-wp/
+Not Found: /web/
+Not Found: /old-site/
+Not Found: /temp/
+Not Found: /2018/
+Not Found: /2019/
+Not Found: /bk/
+Not Found: /wp1/
+Not Found: /wp2/
+Not Found: /v1/
+Not Found: /v2/
+Not Found: /bak/
+Not Found: /install/
+Not Found: /2020/
+Not Found: /new-site/
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /wp-login.php
+Not Found: /wp-login.php
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /atom.xml
+Not Found: /sitemap.txt
+Not Found: /sitemaps.xml
+Not Found: /sitemap_index.xml
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap.xml
+Not Found: /atom.xml
+Not Found: /sitemap.txt
+Not Found: /sitemaps.xml
+Not Found: /sitemap_index.xml
+Not Found: /ads.txt
+Not Found: /sitemap.xml.gz
+Not Found: /atom.xml
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap_index.xml
+Not Found: /sitemap.xml
+Not Found: /atom.xml
+Not Found: /sitemap.txt
+Not Found: /sitemaps.xml
+Not Found: /sitemaps.xml
+Not Found: /sitemap_index.xml
+Not Found: /sitemap.xml.gz
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml
+Not Found: /sitemap.xml
+Not Found: /atom.xml
+Not Found: /sitemap.txt
+Not Found: /sitemaps.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap_index.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml.gz
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap_index.xml
+Not Found: /.env
+Not Found: /wp-content/
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /atom.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /sitemaps.xml
+Not Found: /atom.xml
+Not Found: /sitemap.txt
+Not Found: /sitemaps.xml
+Not Found: /sitemap_index.xml
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml.gz
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /sitemap_index.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /ads.txt
+Not Found: /wp-content/
+Not Found: /wp-content/
+Not Found: /wp-admin/install.php
+Not Found: /wp/wp-admin/install.php
+Not Found: /new/wp-admin/install.php
+Not Found: /old/wp-admin/install.php
+Not Found: /wordpress/wp-admin/install.php
+Not Found: /test/wp-admin/install.php
+Not Found: /blog/wp-admin/install.php
+Not Found: /cms/wp-admin/install.php
+Not Found: /web/wp-admin/install.php
+Not Found: /backup/wp-admin/install.php
+Not Found: /site/wp-admin/install.php
+Not Found: /oldsite/wp-admin/install.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/assates/js/footer/js/jquery-3.6.0.min.js.js
+Not Found: /static/assates/js/footer/js/bootstrap.min.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /assets/plugins/jquery-file-upload/server/php/
+Not Found: /assets/plugins/jQuery-File-Upload/server/php/
+Not Found: /assets/global/plugins/jquery-file-upload/server/php/
+Not Found: /assets/global/plugins/jQuery-File-Upload/server/php/
+Not Found: /assets/plugins/jquery-fileupload/server/php/
+Not Found: /plugins/jquery-file-upload/server/php/
+Not Found: /assets/jquery-file-upload/server/php/
+Not Found: /wp-login.php
+Not Found: /author/wordcamp
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Invalid HTTP_HOST header: 'mail.fanshaweprojectproposals.ca'. You may need to add 'mail.fanshaweprojectproposals.ca' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /robots.txt
+Not Found: /wp-content/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
